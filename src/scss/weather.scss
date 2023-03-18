@@ -1,0 +1,131 @@
+.search {
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 200px;
+
+    .city_input {
+        background-color: white;
+        border: none;
+        color: #101e33;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        flex: 1;
+        text-align: center;
+    }
+
+    .city_input:focus {
+        outline: none;
+    }
+}
+
+.si {
+    color: #101e33;
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+
+.mm {
+    color: #101e33;
+    margin-right: 5px;
+    font-size: 1.5rem;
+}
+
+.result {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    color: #101e33;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.title {
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.sky_img {
+    width: 60%;
+}
+
+.temp {
+    font-size: 3rem;
+}
+
+.sky {
+    font-size: 1.25rem;
+    margin-top: -20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+}
+
+.humidity {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.wind {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    display: flex;
+    align-items: center;
+}
+
+.humidity .hum_comp,
+.wind .wind_comp {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.hum_comp p,
+.wind_comp p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.wd,
+.hd {
+    margin-right: 5px;
+    font-size: 2rem;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.img-error {
+    margin-top: 20px;
+}
